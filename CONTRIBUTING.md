@@ -5,7 +5,7 @@
 ## 开发环境
 
 - macOS 15+
-- Swift 6.2+
+- Swift 6.1+
 - `adb`
 - `scrcpy` 4.x
 

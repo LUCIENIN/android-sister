@@ -12,7 +12,7 @@
 <p align="center">
   <a href="https://github.com/LUCIENIN/android-sister/actions/workflows/ci.yml"><img alt="CI" src="https://github.com/LUCIENIN/android-sister/actions/workflows/ci.yml/badge.svg"></a>
   <a href="https://github.com/LUCIENIN/android-sister/releases"><img alt="Release" src="https://img.shields.io/github/v/release/LUCIENIN/android-sister?include_prereleases&label=preview"></a>
-  <img alt="Swift 6.2+" src="https://img.shields.io/badge/Swift-6.2%2B-F05138?logo=swift&logoColor=white">
+  <img alt="Swift 6.1+" src="https://img.shields.io/badge/Swift-6.1%2B-F05138?logo=swift&logoColor=white">
   <img alt="macOS 15+" src="https://img.shields.io/badge/macOS-15%2B-111827?logo=apple&logoColor=white">
   <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-34D399"></a>
 </p>
@@ -93,7 +93,7 @@ open dist/AndroidSister.app
 
 ## 开发与参与
 
-- 开发环境：macOS 15+、Swift 6.2+、ADB、scrcpy 4.x
+- 开发环境：macOS 15+、Swift 6.1+、ADB、scrcpy 4.x
 - 最小验证：`swift test`
 - Release 构建：`swift build -c release`
 - App 打包：`./scripts/package-app.sh release`
