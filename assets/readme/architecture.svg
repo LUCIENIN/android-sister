@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="430" viewBox="0 0 1200 430" role="img" aria-labelledby="title desc">
+  <title id="title">安卓姐姐本地架构</title>
+  <desc id="desc">macOS 应用通过 ADB 读取设备和应用，通过 scrcpy 连接主显示或 Android 14 虚拟显示，整个过程不经过云端。</desc>
+  <defs>
+    <linearGradient id="bridge" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#22D3EE"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="430" rx="28" fill="#0B0E14"/>
+  <text x="56" y="58" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="30" font-weight="700">一条本地链路，两种显示模式</text>
+  <text x="56" y="88" fill="#94A3B8" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">NO ACCOUNT · NO CLOUD · NO TELEMETRY</text>
+
+  <g transform="translate(56 132)">
+    <rect width="280" height="220" rx="20" fill="#151A25" stroke="#334155"/>
+    <circle cx="24" cy="24" r="5" fill="#FB7185"/><circle cx="42" cy="24" r="5" fill="#FBBF24"/><circle cx="60" cy="24" r="5" fill="#34D399"/>
+    <text x="24" y="78" fill="#F4F7FB" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="24" font-weight="700">安卓姐姐</text>
+    <text x="24" y="111" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">SwiftUI · AppModel</text>
+    <rect x="24" y="142" width="232" height="48" rx="12" fill="#202738"/>
+    <text x="44" y="172" fill="#CBD5E1" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="16">设备与应用浏览器</text>
+  </g>
+
+  <path d="M 356 212 C 405 212, 411 180, 460 180" fill="none" stroke="url(#bridge)" stroke-width="6" marker-end="url(#arrow)"/>
+  <path d="M 356 272 C 405 272, 411 304, 460 304" fill="none" stroke="url(#bridge)" stroke-width="6" marker-end="url(#arrow)"/>
+
+  <g transform="translate(460 132)">
+    <rect width="280" height="92" rx="18" fill="#17142A" stroke="#8B5CF6"/>
+    <text x="24" y="40" fill="#DDD6FE" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="21" font-weight="650">ADB Service</text>
+    <text x="24" y="68" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">device · apps · launch</text>
+    <rect y="124" width="280" height="92" rx="18" fill="#102331" stroke="#22D3EE"/>
+    <text x="24" y="164" fill="#CFFAFE" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="21" font-weight="650">scrcpy Service</text>
+    <text x="24" y="192" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">mirror · new-display</text>
+  </g>
+
+  <path d="M 760 180 C 815 180, 815 160, 866 160" fill="none" stroke="#8B5CF6" stroke-width="5" marker-end="url(#arrow)"/>
+  <path d="M 760 304 C 815 304, 815 280, 866 280" fill="none" stroke="#22D3EE" stroke-width="5" marker-end="url(#arrow)"/>
+
+  <g transform="translate(866 112)">
+    <rect width="278" height="270" rx="32" fill="#121824" stroke="#475569"/>
+    <rect x="25" y="36" width="228" height="82" rx="16" fill="#211A3A"/>
+    <text x="45" y="70" fill="#DDD6FE" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="650">主显示</text>
+    <text x="45" y="95" fill="#A78BFA" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">普通投屏</text>
+    <rect x="25" y="139" width="228" height="82" rx="16" fill="#102B36"/>
+    <text x="45" y="173" fill="#CFFAFE" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="18" font-weight="650">虚拟显示</text>
+    <text x="45" y="198" fill="#67E8F9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14">Android 14+ Fusion</text>
+    <circle cx="139" cy="246" r="7" fill="#34D399"/>
+    <text x="154" y="252" fill="#94A3B8" font-family="-apple-system, BlinkMacSystemFont, 'PingFang SC', sans-serif" font-size="14">本机 Android 真机</text>
+  </g>
+</svg>
